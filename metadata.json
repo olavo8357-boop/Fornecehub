@@ -1,0 +1,6 @@
+{
+  "name": "ForneceHub",
+  "description": "Melhores fornecedores e marketplaces do Brasil",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
