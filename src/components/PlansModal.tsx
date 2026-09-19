@@ -60,7 +60,7 @@ export const PlansModal: React.FC<PlansModalProps> = ({ isOpen, onClose, onSelec
               </ul>
             </div>
             <a
-              href="https://pay.sinnu.com.br/q6kVp5J2"
+              href="https://go.perfectpay.com.br/PPU38CQGAKD"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => onClose()}
@@ -80,9 +80,17 @@ export const PlansModal: React.FC<PlansModalProps> = ({ isOpen, onClose, onSelec
                 Vitalício
               </span>
               <h4 className="text-xl font-bold text-white mt-1">Plano Premium</h4>
-              <div className="mt-3 flex items-baseline gap-1">
-                <span className="text-3xl font-extrabold text-white">R$ 249,00</span>
-                <span className="text-xs text-neutral-400">pagamento único</span>
+              <div className="mt-3 flex flex-col gap-1.5">
+                <div className="flex items-baseline gap-1">
+                  <span className="text-3xl font-extrabold text-white">R$ 249,00</span>
+                  <span className="text-xs text-neutral-400">à vista</span>
+                </div>
+                <div className="text-neutral-400 text-[11px] font-semibold flex items-center gap-1.5">
+                  <span>ou em até</span>
+                  <span className="bg-emerald-500/10 border border-emerald-500/20 px-1.5 py-0.5 rounded text-[11px] font-bold text-emerald-400">
+                    12x de R$ 24,90
+                  </span>
+                </div>
               </div>
               <ul className="mt-5 space-y-2.5 text-xs text-neutral-300">
                 <li className="flex items-center gap-2">
@@ -104,7 +112,7 @@ export const PlansModal: React.FC<PlansModalProps> = ({ isOpen, onClose, onSelec
               </ul>
             </div>
             <a
-              href="https://pay.sinnu.com.br/4Vdve6nb"
+              href="https://go.perfectpay.com.br/PPU38CQGAKC"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => onClose()}

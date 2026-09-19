@@ -71,7 +71,7 @@ export const PricingSection: React.FC = () => {
           <div className="pt-10">
             <a
               id="btn-plano-basico"
-              href="https://pay.sinnu.com.br/q6kVp5J2"
+              href="https://go.perfectpay.com.br/PPU38CQGAKD"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 px-4 rounded-xl border border-[#2b2046] bg-[#120e22] hover:bg-[#1b1433] hover:border-[#4d2f8c] text-white text-sm font-semibold transition-all duration-200 cursor-pointer active:scale-[0.98] flex items-center justify-center text-center"
@@ -116,14 +116,22 @@ export const PricingSection: React.FC = () => {
             </div>
 
             {/* Price */}
-            <div className="flex items-baseline gap-1.5 mb-8">
-              <span className="text-neutral-400 font-bold text-lg">R$</span>
-              <span className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
-                249,00
-              </span>
-              <span className="text-neutral-400 text-xs sm:text-sm font-medium">
-                pagamento único
-              </span>
+            <div className="mb-8">
+              <div className="flex items-baseline gap-1.5 mb-1.5">
+                <span className="text-neutral-400 font-bold text-lg">R$</span>
+                <span className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
+                  249,00
+                </span>
+                <span className="text-neutral-400 text-xs sm:text-sm font-medium">
+                  à vista ou pagamento único
+                </span>
+              </div>
+              <p className="text-neutral-400 text-xs font-semibold flex items-center gap-2">
+                <span>ou em até</span>
+                <span className="text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-0.5 rounded-lg text-xs font-bold shadow-[0_0_10px_rgba(16,185,129,0.05)]">
+                  12x de R$ 24,90
+                </span>
+              </p>
             </div>
 
             {/* Features List */}
@@ -159,7 +167,7 @@ export const PricingSection: React.FC = () => {
           <div className="pt-10">
             <a
               id="btn-plano-premium"
-              href="https://pay.sinnu.com.br/4Vdve6nb"
+              href="https://go.perfectpay.com.br/PPU38CQGAKC"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-[#6d28d9] via-[#7c3aed] to-[#6366f1] hover:brightness-110 text-white text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer shadow-[0_0_28px_rgba(124,58,237,0.55)] active:scale-[0.98] text-center"
