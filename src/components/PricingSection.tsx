@@ -71,7 +71,7 @@ export const PricingSection: React.FC = () => {
           <div className="pt-10">
             <a
               id="btn-plano-basico"
-              href="https://go.perfectpay.com.br/PPU38CQGAKD"
+              href="https://checkout.applyfy.com.br/checkout/cmuiuvzkl02gg01pu67qm0xpx?offer=4UTGZI8"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 px-4 rounded-xl border border-[#2b2046] bg-[#120e22] hover:bg-[#1b1433] hover:border-[#4d2f8c] text-white text-sm font-semibold transition-all duration-200 cursor-pointer active:scale-[0.98] flex items-center justify-center text-center"
@@ -167,7 +167,7 @@ export const PricingSection: React.FC = () => {
           <div className="pt-10">
             <a
               id="btn-plano-premium"
-              href="https://go.perfectpay.com.br/PPU38CQGAKC"
+              href="https://checkout.applyfy.com.br/checkout/cmuiusvtu02gm01puci6q28nn?offer=LDPJ5IQ"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-[#6d28d9] via-[#7c3aed] to-[#6366f1] hover:brightness-110 text-white text-sm font-bold transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer shadow-[0_0_28px_rgba(124,58,237,0.55)] active:scale-[0.98] text-center"

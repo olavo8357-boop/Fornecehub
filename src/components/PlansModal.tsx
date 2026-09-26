@@ -60,7 +60,7 @@ export const PlansModal: React.FC<PlansModalProps> = ({ isOpen, onClose, onSelec
               </ul>
             </div>
             <a
-              href="https://go.perfectpay.com.br/PPU38CQGAKD"
+              href="https://checkout.applyfy.com.br/checkout/cmuiuvzkl02gg01pu67qm0xpx?offer=4UTGZI8"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => onClose()}
@@ -112,7 +112,7 @@ export const PlansModal: React.FC<PlansModalProps> = ({ isOpen, onClose, onSelec
               </ul>
             </div>
             <a
-              href="https://go.perfectpay.com.br/PPU38CQGAKC"
+              href="https://checkout.applyfy.com.br/checkout/cmuiusvtu02gm01puci6q28nn?offer=LDPJ5IQ"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => onClose()}
