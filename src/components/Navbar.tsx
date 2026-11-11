@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/images/fornecehub_logo_new.jpg';
 
 interface NavbarProps {
   onLoginClick?: () => void;
@@ -11,7 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onLoginClick, onSubscribeClick }
       {/* Brand Logo */}
       <div className="flex items-center gap-2.5 cursor-pointer select-none">
         <div className="w-8 h-8 rounded-lg bg-[#0e0c18] border border-[#3b2d63] flex items-center justify-center shadow-[0_0_15px_rgba(124,58,237,0.25)]">
-          <img src="/src/assets/images/fornecehub_logo_new.jpg" alt="ForneceHub" className="w-8 h-8 object-contain" />
+          <img src={logo} alt="ForneceHub" className="w-8 h-8 object-contain" />
         </div>
         <div className="flex items-baseline font-bold text-lg tracking-tight">
           <span className="text-white">ForneceHub</span>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import logo from '../assets/images/fornecehub_logo_new.jpg';
 
 interface HeroProps {
   onSubscribeClick?: () => void;
@@ -18,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({ onSubscribeClick, onPlansClick }) =>
 
       {/* Brand Mini Badge */}
       <div className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-xl bg-[#0f0d1a]/90 border border-[#2b2149] shadow-[0_0_20px_rgba(124,58,237,0.2)] mb-8 select-none">
-          <img src="/src/assets/images/fornecehub_logo_new.jpg" alt="ForneceHub" className="w-6 h-6 object-contain" />
+          <img src={logo} alt="ForneceHub" className="w-6 h-6 object-contain" />
         <div className="flex items-baseline font-bold text-base tracking-tight">
           <span className="text-white">ForneceHub</span>
         </div>

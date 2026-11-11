@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, Lock, Mail, ArrowRight } from 'lucide-react';
+import logo from '../assets/images/fornecehub_logo_new.jpg';
 
 interface LoginModalProps {
   isOpen: boolean;
@@ -35,7 +36,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onClose }) => {
 
         <div className="text-center mb-6">
           <div className="w-10 h-10 rounded-xl bg-[#181920] border border-[#292a37] flex items-center justify-center mx-auto mb-3">
-            <img src="/src/assets/images/fornecehub_logo_new.jpg" alt="ForneceHub" className="w-8 h-8 object-contain" />
+            <img src={logo} alt="ForneceHub" className="w-8 h-8 object-contain" />
           </div>
           <h3 className="text-xl font-bold text-white tracking-tight">Entrar na ForneceHub</h3>
           <p className="text-xs text-neutral-400 mt-1">
