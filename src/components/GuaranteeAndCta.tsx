@@ -106,7 +106,7 @@ export const GuaranteeAndCta: React.FC<GuaranteeAndCtaProps> = ({ onSubscribeCli
 
       {/* FOOTER */}
       <footer className="w-full border-t border-[#1a142c] py-8 text-center text-xs text-[#6e688f] select-none">
-        <p>© 2026 ForneceHub.io — Todos os direitos reservados</p>
+        <p>© 2026 ForneceHub — Todos os direitos reservados</p>
       </footer>
     </div>
   );

@@ -18,12 +18,9 @@ export const Hero: React.FC<HeroProps> = ({ onSubscribeClick, onPlansClick }) =>
 
       {/* Brand Mini Badge */}
       <div className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-xl bg-[#0f0d1a]/90 border border-[#2b2149] shadow-[0_0_20px_rgba(124,58,237,0.2)] mb-8 select-none">
-        <div className="w-7 h-7 rounded-lg bg-[#19142b] border border-[#3f316b] flex items-center justify-center">
-          <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-violet-300 to-cyan-300 text-sm leading-none">F</span>
-        </div>
+          <img src="/src/assets/images/fornecehub_logo_new.jpg" alt="ForneceHub" className="w-6 h-6 object-contain" />
         <div className="flex items-baseline font-bold text-base tracking-tight">
           <span className="text-white">ForneceHub</span>
-          <span className="text-violet-400 font-semibold">.io</span>
         </div>
       </div>
 
